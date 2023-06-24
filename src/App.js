@@ -12,9 +12,9 @@ function App() {
     <Provider store={store}>
     <BrowserRouter>
     <Routes>
-      <Route path='./' Component={Navbar}>
-          <Route path="./" Component={Login} />
-          <Route path="./profile" Component={Profile} />
+      <Route path='/' Component={Navbar}>
+          <Route path="/" Component={Login} />
+          <Route path="/profile" Component={Profile} />
      </Route>     
      </Routes>
      </BrowserRouter>
