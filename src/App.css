@@ -1,0 +1,50 @@
+.App {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;  
+}
+nav{
+  position: fixed;
+  right: 0;
+  top: 0;
+  font-size: 1.5rem;
+  
+}
+nav *{
+  padding: 10px 20px;
+  text-decoration: none;
+}
+nav .active{
+  color:green;
+}
+.myform{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 3px 12px grey;
+  padding:20px;
+}
+.myform input{
+  margin: 20px;
+  height: 20px;
+  width: 250px;
+  font-size: 1.2rem;
+  padding: 10px;  
+  
+}
+.myform button{
+  height: 30px;
+  font-size: 1.2rem;
+  padding: 0 20px;
+}
+
+.profile ul{
+  margin: auto;
+  text-align: left;
+  width: fit-content;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
