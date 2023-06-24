@@ -2,7 +2,7 @@
   "name": "f4contest2-june",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nadeemmeerza24.github.io/f4contest2-june/",
+  "homepage": "https://nadeemmeerza24.github.io/f4contest2-june",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
