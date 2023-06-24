@@ -5,8 +5,8 @@ export default function Navbar() {
   return (
     <div>
         <nav>
-            <NavLink to="/">Login</NavLink>
-            <NavLink to="/profile">Profile</NavLink>
+            <NavLink to="./">Login</NavLink>
+            <NavLink to="./profile">Profile</NavLink>
         </nav>
        
         <Outlet/>

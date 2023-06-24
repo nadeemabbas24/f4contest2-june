@@ -7,8 +7,7 @@ function Profile() {
     const userData = useSelector(state=>state.data) 
     const dispatch = useDispatch();
     const navigate = useNavigate();
-    console.log("in profile",userData)
-    
+       
     useEffect(()=>{
 
       fetch(`https://dummyjson.com/users/${id}`)
@@ -17,7 +16,7 @@ function Profile() {
             console.log(data)
             if(data.message)
                {alert(data.message)
-                navigate("/")}
+                navigate("./")}
             else
               dispatch({type:'SUCCESS', payload:data});
         });
