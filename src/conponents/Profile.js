@@ -16,7 +16,7 @@ function Profile() {
             console.log(data)
             if(data.message)
                {alert(data.message)
-                navigate("./")}
+                navigate("/")}
             else
               dispatch({type:'SUCCESS', payload:data});
         });

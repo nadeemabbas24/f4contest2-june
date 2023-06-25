@@ -29,7 +29,7 @@ function Login() {
                     alert(data.message)
                 else{  
                 dispatch({type:'LOGIN', payload:data.id});
-                navigate('./profile'); }
+                navigate('/profile'); }
             })
             .catch(error=>{
                 
