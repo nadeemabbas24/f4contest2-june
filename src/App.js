@@ -12,7 +12,7 @@ function App() {
     <Provider store={store}>
     <HashRouter>
     <Routes>
-      <Route path='/' Component={Navbar}>
+      <Route  exact path='/' Component={Navbar}>
           <Route path="/" Component={Login} />
           <Route path="/profile" Component={Profile} />
      </Route>     
